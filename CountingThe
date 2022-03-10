@@ -1,0 +1,13 @@
+package Unit1;
+//Griffin Shuit Feb 26
+public class CountingThe {
+	public static void main(String[] args) {
+		String stringHolder = "The man walked to the store and bought a pie.";
+		stringHolder = stringHolder.toLowerCase();
+		int theCount = 0;
+		for(int i = 0; i < stringHolder.length()-2; i++) {		
+			if(stringHolder.substring(i,i+3).equals("the")) theCount++;
+		}
+		System.out.println("The amount of thes in the string is " + theCount);
+	}
+}
