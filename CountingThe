@@ -9,5 +9,6 @@ public class CountingThe {
 			if(stringHolder.substring(i,i+3).equals("the")) theCount++;
 		}
 		System.out.println("The amount of thes in the string is " + theCount);
+		//This is an edit
 	}
 }
